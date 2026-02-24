@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+permalink: "/contact/"
+eleventyNavigation:
+  key: Contact
+  order: 3
+---
+<article>
+
+  <header class="pb--4">
+
+    <div class="grid grid--intro">
+
+      <div class="grid__item--span-4 mw--readable markdown">{{ settings.metadata.site_description | renderUsingMarkdown | safe }}</div>
+
+    </div>
+
+  </header>
+
+</article>
+
+{# Appended to <head> during build #}
+{% include "components/opengraph.njk" %}
