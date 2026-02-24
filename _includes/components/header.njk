@@ -14,8 +14,6 @@
 				<span class="grid__item">{{ settings.metadata.site_subtitle_1 }}</span>
 			{% endif %}
 
-    {% include "components/nav.njk" %}
-
 			{% if settings.metadata.site_subtitle_2 %}
 				<span class="grid__item">{{ settings.metadata.site_subtitle_2 }}</span>
 			{% endif %}
@@ -36,4 +34,7 @@
 		{% endif %}
 
 	</div>
+
+    {% include "components/nav.njk" %}
+
 </header>
