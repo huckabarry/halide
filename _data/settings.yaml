@@ -9,14 +9,13 @@ config:
 metadata:
   site_url: 'https://halide-afterword.netlify.app'
   site_title: Afterword
-  site_subtitle_1: Image Portfolio
+  site_subtitle_1: Visual notes by Bryan Robb
   site_subtitle_2: 'Portland, OR'
-  site_description: |
-    Halide is a customizable Jamstack portfolio website theme designed for photographers and still image creators. Read the docs at [github.com/danurbanowicz/halide](https://github.com/danurbanowicz/halide)
+  site_description: ''
   site_email: bryan@afterword.blog
   site_social_url: ''
   site_icon_svg: /assets/uploads/favicon.svg
-  site_icon_png: ''
+  site_icon_png: /assets/uploads/IMG_8710.jpeg
   site_ga4_id: ''
   seo:
     site_title: Halide - Jamstack portfolio theme
