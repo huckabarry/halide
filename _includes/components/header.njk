@@ -10,7 +10,15 @@
       {% endif %}
 		</a>
 
+	    {% if settings.metadata.site_subtitle_1 %}
+				<span class="grid__item">{{ settings.metadata.site_subtitle_1 }}</span>
+			{% endif %}
+
     {% include "components/nav.njk" %}
+
+			{% if settings.metadata.site_subtitle_2 %}
+				<span class="grid__item">{{ settings.metadata.site_subtitle_2 }}</span>
+			{% endif %}
 
 		{% if settings.theme.theme_features.enable_dark_mode %}
 			<div class="grid__item grid__item--end grid__item--top">
