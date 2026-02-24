@@ -8,6 +8,7 @@ import eleventyHelmetPlugin from "eleventy-plugin-helmet";
 import EleventyFetch from "@11ty/eleventy-fetch";
 import Image from "@11ty/eleventy-img";
 import MarkdownIt from "markdown-it";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 const mdRender = new MarkdownIt();
 
 export default function(eleventyConfig) {
@@ -108,6 +109,12 @@ export default function(eleventyConfig) {
 
   // Add 11ty helmet plugin, for appending elements to <head>
   eleventyConfig.addPlugin(eleventyHelmetPlugin);
+  
+  // Add 11ty helmet plugin, for appending elements to <head>
+  eleventyConfig.addPlugin(eleventyHelmetPlugin);
+
+  // Add Eleventy Navigation plugin (adds the eleventyNavigation filter)
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   // Add support for YAML data files with .yaml extension
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
