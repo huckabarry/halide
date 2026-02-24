@@ -10,12 +10,7 @@
       {% endif %}
 		</a>
 
-    <nav class="grid__item site-nav" aria-label="Primary">
-      <ul class="nav-list">
-        <li><a href="{{ '/' | url }}">Home</a></li>
-        <li><a href="{{ '/about/' | url }}">About</a></li>
-      </ul>
-    </nav>
+    {% include "components/nav.njk" %}
 
 		{% if settings.theme.theme_features.enable_dark_mode %}
 			<div class="grid__item grid__item--end grid__item--top">
