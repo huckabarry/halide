@@ -8,8 +8,8 @@ config:
   font_stack_system: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
 metadata:
   site_url: 'https://halide-afterword.netlify.app'
-  site_title: Afterword
-  site_subtitle_1: 'A photo gallery. '
+  site_title: Bryan Robb
+  site_subtitle_1: Visual Notes
   site_subtitle_2: 'Portland, OR'
   site_description: ''
   site_email: bryan@afterword.blog
