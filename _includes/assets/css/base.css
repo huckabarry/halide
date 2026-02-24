@@ -31,7 +31,7 @@ header > em {
 	font-size: 2em;
 	margin: .67em 0;
 	font-weight: bold;
-	font-style: normal;
+	font-style: italic;
 }
 
 /* Header Nav */
@@ -59,7 +59,7 @@ header nav li a[href]:not(:hover) {
 }
 
 header nav li a[data-current="current item"] {
-	background-color: white;
+	background-color: gray;
 }
 
 /* Body */
