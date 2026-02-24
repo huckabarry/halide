@@ -1,8 +1,7 @@
 ---
 draft: false
-title: A Photoless Project
-description: |
-  How does this show up in the tile?
+title: Columbia River
+description: ''
 year: 2026
 images:
   - src: /assets/uploads/DSCF3002.jpeg
