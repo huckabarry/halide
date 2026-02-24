@@ -9,11 +9,11 @@ config:
 metadata:
   site_url: 'https://halide-afterword.netlify.app'
   site_title: Afterword
-  site_subtitle_1: Visual notes by Bryan Robb
+  site_subtitle_1: 'A photo gallery. '
   site_subtitle_2: 'Portland, OR'
   site_description: ''
   site_email: bryan@afterword.blog
-  site_social_url: ''
+  site_social_url: 'https://bsky.app/profile/bryanrobb.bsky.social'
   site_icon_svg: /assets/uploads/favicon.svg
   site_icon_png: /assets/uploads/IMG_8710.jpeg
   site_ga4_id: ''
