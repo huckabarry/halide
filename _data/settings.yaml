@@ -7,12 +7,11 @@ config:
   image_width_lg: 2400
   font_stack_system: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
 metadata:
-  site_url: 'https://afterword.blog'
-  site_title: Afterword
+  site_url: 'https://bryanrobb.com'
+  site_title: Bryan Robb
   site_subtitle_1: ''
   site_subtitle_2: ''
-  site_description: |
-    Thoughts and visual notes by Bryan Robb.
+  site_description: ''
   site_email: bryan@afterword.blog
   site_social_url: 'https://bsky.app/profile/bryanrobb.bsky.social'
   site_icon_svg: /assets/uploads/favicon.svg
